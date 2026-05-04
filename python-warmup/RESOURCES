@@ -1,0 +1,40 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+
+Camden and I worked in parallel but did not dialogue about our code much at all. I overheard Camden verbally processing about how he was forgetting to remove the non-alphabetic characters for his crack-caesar, so that was one thing I didn't have to figure out. He also wrote out a general template for dynamic programming problems on the whiteboard, which I saw and benefited from, but I prefered to take a slightly different route. 
+
+I used chatGPT (gpt4o) for a myriad of python syntax related questions- I've gotten rusty from the summer. I thought this was helpful to my learning, because I just don't know these things syntactically, but would say I have a solid understanding of the concepts. Here were my querries:
+
+1. What is the syntax for a python dictionary?
+2. Remind me how to a list comprehension.
+3. Is a string itterable in python?
+4. If I'm using a list comprehension by itterating through a string, how can I access a different character in that string?
+5. Syntax for adding elements to a dictionary from a list
+6. Can i do that in one line?
+7. If I have not placed anything in a dictionary for a given key yet, can I assume it is zero if I do +=1 to it?
+8. How about if my\_dict\[a]
+9. Isn't there any way to count the items from a list as I put them into a dictionary, and do this in just one line?
+10. is there a way to stitch characters in a list into a string in just one line?
+11. how to find the index of a character in a string
+12. how to do modulo in python
+13. What is the most pythonic way to make a list of characters into a single string?
+14. Which gpt are you?
+15. Why might I have a substring not found error?
+16. Most pythonic way to determine if a string contains a character
+17. python ternary
+18. What does (-5)%26 evaluate to in python?
+19. Can you make a list of everything I've entered in this chat so far?
+20. What is the built in python method for getting the largest integer from a list
+21. I have a dictionary with integers as the values. What is the most pythonic way to find the largest one?
+22. how to remove a dictionary entry
+23. how to remove an item from dictionary based on key
+24. This is an example you gave me earlier: `max_key = max(my_dict, key=my_dict.get)`... Can you explain what each thing is doing here? In particular, "get".
+25. Ok. However, in `max(my_dict, key=my_dict.get)` when the value is an int, it complains about having an int for `.get`. Do I need `.get`, `.get()`, or something else? Have you forgotten something here?
+26. What version of python does this require?
+27. Why would I get the error "'int' object has no attribute 'get'?
+28. What is `and` in python
+29. how to check if a character is one in a certain set
+30. Please summarize my queries so far this conversation:
+31. Sorry, what I actually want is a plain list of my queries so far, formatted nicely for me to paste in a plaintext file.
