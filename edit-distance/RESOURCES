@@ -1,0 +1,11 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+I used no AI or searching. I just implemented the dynamic programming problem.
+
+Camden mentioned his clever technique of comparing things to a really big number in order to get them to be considered for the min function when appropriate, and I used this to condense my code a bit.
+
+Abbigail mentioned that the n+1 by m+1 size of the discances table was for strings of length 0, and this probably saved me a couple minutes of getting to that realization on my own.
+
+I think that neither of these things harmed my learning since I'm fairly well practiced with these sorts of things at this point in my education.
