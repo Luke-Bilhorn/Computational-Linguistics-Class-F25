@@ -1,0 +1,60 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+I used chatGPT for small scale python syntax help.
+I tried to use it to write a sophisticated line that I understood well but had a lot of syntax I needed to remember, but it ended up being too much work so I did something less elegant that saved time.
+
+Camden gave me a few pointers, mostly along syntax lines, and helped me to understand better the function of the psi table.
+Abigail gave me some more conceptual pointers that were useful and showed us all that pi was actually not needed.
+
+UPDATE: 
+After agonizing over my code for a long time and not figuring out why I was getting 0 accuracy, I pasted it all into chatGPT (querry 14) and asked what was wrong. 
+ChatGPT made up a lot of non-issues for the pieces of the code I was already certain to be correct (I ignored these), but also discovered an inconsistency in my indexing and offered a fix. 
+In my backtrace of psi, I was trying to grab the [t]th thing, not the [t+1]th thing.
+This fix changed all the names of my variables, so I spent some time tweaking my own code to match the changes it had made and understand it. This fixed the issue. 
+
+Interestingly, ChatGPT knew, without my ever having told it, that I was working on a HMM. I suspect that pasting variable names like "emission_probs" and "transition_probs" did this.
+
+ChatGPT Summary: Python & HMM Questions
+
+1. Asked how to set up a Python dictionary using strings as both keys and values.
+
+2. Asked to add entries to a Python dictionary.
+
+3. Asked how to initialize a 2D dictionary in Python.
+
+4. Requested a one-line comprehension to initialize transition_probs as a dictionary of dictionaries counting tag transitions from a list of (word, tag) pairs.
+    #This did not yield any good results
+
+5. Confirmed that the comprehension solution was correct.
+
+6. Asked whether += is valid in Python.
+
+7. Asked for an explanation of what the following line does:
+self.emission_probs = {tag: {word: 0 for (tag, word) in training_tagged} for tag in tagset}
+
+8. Asked whether _ works as a throwaway variable name in Python.
+
+9. Asked whether the following code is valid python:
+for list in self.emission_probs:
+    list /= sum(list)
+
+10. Asked for an explanation of .values() in Python dictionaries.
+
+11. Asked how to use max() in Python.
+
+12. Asked whether there is a convenient argmax function (or equivalent) in Python.
+
+13. Asked how to count down using range() in Python.
+
+14. Asked "What is wrong with this code" and provided a file.
+
+15. Requested a numbered plaintext summary of all queries in this chat (this message).
+
+
+
+
+
+
+
