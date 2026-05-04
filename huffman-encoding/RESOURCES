@@ -1,0 +1,30 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+
+Having neither my DMFP or DSA books on my person, lamentably, as I entered the lab to begin this assignment, I consulted Wikipedia, my faithful old steed, for a brief (3 min?) refresher on huffman encodings. I did not work with or hear from any person, though I did give a few small pointers to others after finishing. I used chatGPT (gpt4-o) for python syntax (and, incidentally, grammar) questions. My queries are below.
+
+List of Queries from ChatGPT Session
+------------------------------------
+1. Should I use "while there are more than one node in the list" or "while there is more than one node in the list"?
+2. Why? Says who?
+3. Pythonic way to check the type of an object
+4. So if isinstance(x, Leaf) should return a boolean?
+5. Pythonic way to "cut the first character off of a string", leaving the rest of the string in the same variable, and moving that character into a new variable
+6. Pythonic way to make a string into a list of chars
+7. Refresh me on how to use the count method
+8. Sorry; I meant Counter
+9. How do I grab both things out of a dictionary entry most Pythonically in a list comprehension?
+10. Where is this syntax wrong? return [Leaf(char, freq) for (char, freq) in Counter(list(text)).most_common().items()]
+11. With this line: "return [Leaf(char, freq) for (char, freq) in Counter(text).most_common()]", I am getting "AttributeError: 'list' object has no attribute 'contains'". Why?
+12. Is this syntax correct? "nodes.sort(key=lambda node: node.total_freq())"
+13. I am under the impression that "nodes = nodes[:-2]" will chop the last two items off of this list. Is my impression correct?
+14. And "nodes[-2]" will take the second item from the end of the list?
+15. If I reference a variable's value in Python while reassigning that variable, it takes the un-updated value, correct?
+16. How do I reference both the key and value of a dictionary entry in a list comprehension? I think your recent answer to a similar question may have been misleading, so think carefully and present your answer carefully.
+17. Is there something syntactically wrong with this? "return [Leaf(char, frequency=freq) for (char, freq) in Counter(text).most_common()]"
+#I asked this having not read the directions carefully enough to realize I needed to return an actual tree, not just the list of leaves.
+18. Make a list of my queries this session.
+19. I asked only for queries, not responses; please shorten this.
+20. Ok, now format this nicely to be pasted into a text file.
