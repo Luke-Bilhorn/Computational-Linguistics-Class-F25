@@ -1,0 +1,29 @@
+Human help:
+
+Camden was a rubber duck for me twice; I just explianed my code for like 2 minutes and found my own problems. Both times were helpful without him saying anything. We also discussed a few things about part 2, which were probably minorly helpful, but I don't remember what we talked about.
+
+Abigail also gave helpful warnings about making sure the driver wasn't going to crash part way through a long run, which was helpful. I read a bit of my code to her at one point too, I think, when she was already finished.
+
+I also saw Audrey's code while helping her debug, but I did things differently.
+
+My chatGPT querries:
+
+What is this line doing? inverse_vocab = {vocab[i]:i for i in range(V)}
+How to make it range from -m to m
+Does this code have any syntax errors?
+If I take in a numpy matrix A as a parameter to a method, and I set B = A, have I created a copy or a reference?
+Generator vs Iterator. What's the difference?
+Explain to me everything this line is doing: cneg = [np.copy(C[cnegi]) for cnegi in context_negs]
+Can you tell me what the types of contex_pos and context_negs are in the update_weight_one_sample method?
+Remind me the syntax for numpy dot product.
+[Long ardous debugging session for update_weights_one_sample]
+What modern english bible translations are available in plaintext format?
+Please generate a plaintext list of my queries this session.
+
+My biggest use of chatGPT was using it as a logical debugging tool. After I wrote my own code, it helped me find a few parentheses which were misplaced, causing me to subtract 1 *within* the logistic function, not outside of it, which wasn't a syntactical error but fatal nonetheless.
+
+But things were still a bit off. I was consistently <0.0001 away from the correct answers. I had scoured my code up and down many times on multiple days and couldn't figure out where I was deviating from the correct procedure in any way. Being dumbfounded, I was using chatGPT in any way I could, trying to figure out what was wrong. I pasted in the entirety of the assignment file with my code this time, which I've never done before. I did this out of a place of being sure I understood the assignment correctly and almost challenging the model to show me wrong. It couldn't get over the fact that I was not using my updated cpos and cneg to calculate w. In different stages it had quite a few hallucinations, which I sifted and thought through.
+
+Then, finally, after hearing many repetitions of the false "Found it! Here's your error!", it let me know that I had forgotton to multiply the output of the logistic function by cneg[i] in my update to w. This I understood conceptually and had merely missed with my eyes. This I had missed, probably in part because it was the one part of the code that hung off the edge of my screen, and I didn't use the horizontal scroll as much when looking things over again and again. Spent hours here and got kicked out of the lab in this state last night. 
+
+But, now it's all done and it works perfectly.
