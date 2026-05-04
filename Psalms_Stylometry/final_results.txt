@@ -1,0 +1,15 @@
+
+
+
+David_026 	-->	 Asaph
+David_062 	-->	 Asaph
+David_101 	-->	 Asaph
+
+32 MFW , culled @ 0%,  21 of 24	(87.5%)
+
+General attributive success:  21 of 24 (87.5%)
+
+MFWs from 100 to 100 @ increment 100
+Culling from 0 to 0 @ increment 20
+Pronouns deleted: FALSE
+
