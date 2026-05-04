@@ -1,0 +1,30 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+I used chat gpt for python syntax, and numpy syntax, as usual. 
+
+This time around, however, I also used it much more extensively for debugging and finding syntax errors in my existing code. This was because it took 2-3 minutes to run the driver each time, and I kept finding that I had tiny things wrong. It was much faster to ask the llm than to wait for the error messages to come back and correct me. 
+
+My usage of chatGPT this time (according to chatGPT):
+1. Declared that everything you ask today will use NumPy, whether you mention it or not.
+2. Asked for a pythonic one-liner to count occurrences of each value in a list.
+3. Asked if np.bincount fills in zeros for missing values and how to pad it.
+4. Asked if you can force np.bincount to produce exactly a certain length.
+5. Asked for a one-liner to take the log base 2 of every item in a list.
+6. Asked whether you can divide a list by an int directly.
+7. Asked if division works directly when the variable is already a NumPy array.
+8. Asked for a one-liner to sum the totals of each column in a NumPy array.
+9. Asked for a one-liner to create a NumPy array identical to a list but with +1 added.
+10. Asked whether dividing one n×d NumPy array by another does element-wise division.
+11. Listed an error message recieved about the line `np.bincount(Y, minlength=self.C)` and asked for help understanding it.
+12. Asked me to check a longer code block (a classifier `__init__`) for syntax errors.
+13. Asked about Python list comprehensions with an `if` condition.
+14. Provided a refined classifier `__init__` version for another syntax check.
+15. Provided a further-refined classifier `__init__` for re-checking.
+16. Provided a short code snippet using nested loops for class sums and asked for syntax checking.
+
+For number 16, chatGPT also threw in what seemed at first to be a random *x in the equation where I had not placed one. This, however, actually jogged my memory and helped me to remember that we need to multiply the log probability by the number of occurances of a word, since we are using a bag and not a straight list, as J&M do. 
+I'm not sure, but I think it is possible that it "realized" I was working with a NBC and accidentally included this, helpfuly.
+
+I talked with other classmates throughout the whole process, but I was mostly ahead this time and I don't think I gained anything I used from others.
