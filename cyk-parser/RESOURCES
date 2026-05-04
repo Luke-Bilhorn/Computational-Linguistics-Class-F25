@@ -1,0 +1,7 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+I didn't use much here. This was like the one topic that really clicked for me without much head scratching. I didn't work with anyone, and I asked chatGPT only one question.
+
+The question I asked chatGPT was for it to look over my code and tell me what was wrong with my dual production line. It correctly pointed out that I was trying to use the objects directly; I had written duals[(a, b)] and not duals[(a.NT, b.NT)].
