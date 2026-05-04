@@ -1,0 +1,30 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+Abby helped me try to debug a bit, which was very generous. She ended up basically being a rubber duck to me.
+Several others in the lab were present, and I may have gleaned something tiny; I can't remember. I think I heard Audrey talk about using a Numpy array, which I should have found in the directions (:/).
+
+I used chatGPT for python syntax. I'm realizing that some of these things are things that I should have remembered, and so I might try to do less with that next time.
+
+01. Asked: How to loop through a list of lists in Python, creating a new list of terms (flattening 2D → 1D) using a one-line list comprehension.
+    #should have tried a minute more on this for my own learning. Not a huge thing but still.
+02. Asked: Pythonic way to get a boolean value of whether an item is in a list.
+03. Asked: How to do that without duplicates and still in one line.
+04. Asked: Whether “not (item in list)” and “item not in list” are equivalent in Python.
+05. Asked: If `min` of an int and `None` just returns the int.
+06. Asked: How to use `typeof` (typo for `type()`) in Python.
+07. Asked: Whether `min` can take two int arguments.
+08. Asked: If `[listA][listB]` creates an empty 2D table of those dimensions.
+09. Asked: How to make a dictionary with the items of a set as keys.
+10. Asked: What happens if you try to edit a non-existent dict entry (`dict['red'] += 34`).
+11. Asked: How to make a dictionary into a list sorted by key.
+12. Asked: How to sort that list in decreasing order.
+13. Asked: If there’s a function that returns the index of an item you search for.
+14. Asked: How to error-check `.index()` in a clean one-line expression.
+15. Asked: How to slice an array.
+16. Asked: If you can initialize an empty array of arrays like `[m][n]`.
+17. Asked: How to print the keys of a dictionary (specifically in Python).
+18. Shared: Full function `texts_to_count_vector()` and asked what was wrong with `order` assignment.
+19. Asked: Whether all indexes and dimensions in that function are correct (counts, vocab, etc.).
+20. Requested: Summary of this session’s Python questions formatted as a plaintext file with line numbers.
