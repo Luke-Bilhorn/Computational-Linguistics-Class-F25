@@ -1,0 +1,24 @@
+(Report here on what resources you used---classmates, Github CoPilot, 
+Python documentation, StackOverflow, etc. Did this help you learn, or 
+did it hinder you from figuring it out on your own?)
+
+
+
+I talked with Camden and he pointed out that I had the {curly braces} in use in my code where I wanted (parentheses). 
+I talked with Audrey, and she gave me a partial misunderstanding of problem 2. She also pointed out that the book had an example in 2.7 which dealt with re.sub, which could easily be used for problem 3-- I had alrady forgotten about this 
+I talked with Abigail and she also said that the book had the date example in 2.7.
+
+These overall were not really helpful or harmful to my learning, but did generally speed it up by a small degree.
+
+Here are my chatGPT querries:
+1. if re.search does not find anything, what does it return?
+2. If I say {0-5}, is this equivalent to {0,1,2,3,4,5}
+3. So is a regular expression its own type in Python?
+4. What are other uses for raw strings outside of regular expressions?
+5. How would I end a string with \?
+6. Is a raw string a unique type, or is it merely a separate way of entering a string? Like, does a string maintain "rawness" or is "raw" only the method by which the programmer created a variable?
+7. How can I specify format for things within a named capture group?
+8. Is there a particularly pythonic way of using the re library to re-combine pieces of a string I've picked apart with regular expressions?
+9. How do I return multiple things from a re.search with a regular expression?
+
+After looking up some of these, I spent a little more time with the book and discovered that some of my questions would have been more fully answered there, although asking the model enabled me to have a quicker refresher to jump in and start coding sooner, which ultimately shortened the time it took to learn. In this case, I still rather have started in the book.

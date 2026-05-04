@@ -1,0 +1,108 @@
+\documentclass[12pt]{article}
+\usepackage{mathrsfs}
+\usepackage{amsfonts} % mathbb
+\usepackage{amsmath}
+\usepackage{graphics}
+\usepackage{latexsym}
+\usepackage{amssymb}
+\usepackage{color}
+\usepackage{multirow}
+\usepackage{amssymb}
+\usepackage{bm}
+\usepackage{multicol}
+
+\newcommand{\p}{\medskip \noindent}
+\newcommand{\major}[1]{\bigskip\noindent{\large{\textbf{#1}}}}
+\newcommand{\minor}[1]{\medskip\noindent{\textit{\textbf{#1}}}}
+\newcommand{\mathsc}[1]{\mbox{\textsc{#1}}}
+
+\setlength{\textheight}{9in}
+\oddsidemargin 0in
+\evensidemargin 0in
+\textwidth 6.5in
+\setlength{\topmargin}{-.5in}
+\newcounter{problem}
+\newcommand{\pn}{\refstepcounter{problem}\theproblem}
+
+\newcounter{subproblem}[problem]
+\renewcommand{\thesubproblem}{\alph{subproblem}}
+\newcommand{\spn}{\refstepcounter{subproblem}\thesubproblem}
+\newcommand{\vs}{\textvisiblespace}
+
+
+\begin{document}
+
+\noindent
+\textbf{CSCI 384}\\
+\textbf{Regular expressions assignment}
+
+\p
+The source code for this assignment can be found in
+the repository under \verb+regex+.
+The file \verb+regexercises.py+ has functions for you to complete.
+
+\p
+See the programming assignment guide on Canvas to review how to 
+test and turn-in your solutions.
+
+\p
+\pn. Finish the function \verb+time_format()+, which takes a string \verb+time+
+and returns a boolean indicating whether \verb+time+ contains a time
+formatted as \verb+hh:mm+ followed by \verb+AM+ or \verb+PM+.
+Use a regular expression and the Python \verb+re+ library
+(hint: \verb+re.search()+ seems to be the obvious choice here).
+Use \verb+test_time_form.py+ to test;
+this also serves as a complete set of examples of valid and invalid time formats.
+
+\p
+\pn. \textit{Stemming} is the task of removing the suffixes 
+(and other morphemes) from a work to recover the stem or root form
+of the word.
+Precise stemming depends on the language and usually requires
+a complicated algorithm.
+We can do some crude stemming in English, however, simply by 
+stripping off a common suffix like \verb+ing+, \verb+ed+, or \verb+er+.
+
+\p
+Finish the function \verb+suffix_stemmer()+ which takes a string containing a suffix
+(such as \verb+ing+) and returns a string containing a regular expression to match
+against a word ending with the given suffix with a capture group for the word's stem
+(that is, the word excluding the suffix).
+For example, if the suffix is \verb+ing+, then the regular expression returned from this function
+could be used in a Python \verb+re+ library operation to match the word \verb+testing+
+with \verb+test+ as the first group.
+
+\p
+Note that this function returns \textit{a string containing a regular expression} 
+such as can be used in Python's regular expression library. 
+Use \verb+test_suf_stem+ to test.
+See that file also for examples of usage.
+
+\p
+\pn. Finish the function \verb+convert_date_format()+, which takes a string \verb+msg+
+and replaces every date formatted as MM-DD-YYYY to the DD.MM.YYY format.
+For example,\\
+ \verb+convert_date_format("Today is 05-31-2023.")+
+would return \verb+"Today is 31.5.2023."+.
+
+\p
+Use Python's \verb+re+ library. 
+This will take some thinking and, possibly, research on your part. 
+But the Python documentation and the examples from class and lab should help---use
+those resources, not things like StackOverflow.
+Hint: \verb+re.finditer()+ returns an iterator of \verb+Match+ objects.
+Each \verb+Match+ object corresponds to a place where a regular expression match
+occurs within a given string.
+You can use \verb+Match+ methods \verb+start()+ and \verb+end()+ to find
+the indices in the string where the match occurs, and you can use the \verb+Match+
+object itself as a dict with the names of the match groups as keys.
+
+
+
+\bigskip
+
+\p
+Turn in your \texttt{regexercises.py} to 
+\verb+/cslab/class/cs384/[your user id]/regex+
+
+\end{document}
