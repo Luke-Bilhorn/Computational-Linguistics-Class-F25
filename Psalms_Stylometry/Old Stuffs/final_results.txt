@@ -1,0 +1,61 @@
+
+
+
+001_Anonymous 	-->	 037
+002_Anonymous 	-->	 022
+010_Anonymous 	-->	 073
+043_Anonymous 	-->	 042
+066_Anonymous 	-->	 068
+067_Anonymous 	-->	 079
+071_Anonymous 	-->	 031
+091_Anonymous 	-->	 005
+092_Anonymous 	-->	 009
+093_Anonymous 	-->	 012
+094_Anonymous 	-->	 009
+095_Anonymous 	-->	 078
+096_Anonymous 	-->	 034
+097_Anonymous 	-->	 048
+098_Anonymous 	-->	 034
+099_Anonymous 	-->	 034
+100_Anonymous 	-->	 034
+102_Anonymous 	-->	 073
+104_Anonymous 	-->	 068
+105_Anonymous 	-->	 078
+106_Anonymous 	-->	 078
+107_Anonymous 	-->	 144
+111_Anonymous 	-->	 145
+112_Anonymous 	-->	 037
+113_Anonymous 	-->	 090
+114_Anonymous 	-->	 048
+115_Anonymous 	-->	 073
+116_Anonymous 	-->	 069
+117_Anonymous 	-->	 131
+118_Anonymous 	-->	 059
+119_Anonymous 	-->	 143
+120_Anonymous 	-->	 068
+121_Anonymous 	-->	 127
+123_Anonymous 	-->	 090
+125_Anonymous 	-->	 122
+126_Anonymous 	-->	 070
+128_Anonymous 	-->	 045
+129_Anonymous 	-->	 034
+130_Anonymous 	-->	 055
+132_Anonymous 	-->	 060
+134_Anonymous 	-->	 029
+135_Anonymous 	-->	 078
+136_Anonymous 	-->	 145
+137_Anonymous 	-->	 127
+146_Anonymous 	-->	 068
+147_Anonymous 	-->	 033
+148_Anonymous 	-->	 078
+149_Anonymous 	-->	 078
+150_Anonymous 	-->	 029
+
+32 MFW , culled @ 0%,  0 of 0	(NaN%)
+
+General attributive success:  0 of 0 (NaN%)
+
+MFWs from 100 to 100 @ increment 100
+Culling from 0 to 0 @ increment 20
+Pronouns deleted: FALSE
+

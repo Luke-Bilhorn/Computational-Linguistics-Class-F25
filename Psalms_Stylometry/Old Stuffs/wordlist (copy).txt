@@ -1,0 +1,38 @@
+# This file contains the words that were used for building the table
+# of frequencies. It can be also used for the next tasks, and for this
+# purpose it can be manually revised, edited, deleted, culled, etc.
+# You can either delete unwanted words, or mark them with "#"
+# -----------------------------------------------------------------------
+
+ 
+י
+ו
+ל
+ה
+א
+ר
+מ
+ב
+ת
+ש
+נ
+ע
+ד
+ם
+כ
+ח
+ך
+פ
+ק
+צ
+ן
+ס
+ג
+ז
+ט
+ץ
+ף
+t
+d
+c
+m
