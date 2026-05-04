@@ -1,0 +1,30 @@
+I used chatGPT for these questions:
+
+How fast can a pontoon boat go?
+
+I have a FreqDist. I want a freqDist of the numbers of these frequencies themselves. Is there a pythonic way to do this in one line?
+
+In python, can I automatically access a given self.field without a getter method?
+
+My professor said that for Good-Turing smoothing with Katz's k cutoff, we should use n₁/(N·n₀) for unseen words. Can you remind me why this is? It would seem that n₀ will be 0, and thus we will divide by 0.
+
+Is it true that French catacombs were only used to prevent the spread of diseases and not for Christian burial rites?
+
+How to reference the smallest float?
+
+Can you show me this as a nice formula? ((r+1)n[r+1]/n[r]-r(k+1)n[k+1]/n[1])/(N(1-(k+1)*n[k+1]/n[1]))
+
+How to initialize an empty 2D array python
+
+Are there any syntax errors or problems that jump out to you from a quick glance at this? (code omitted)
+
+I know it's poor form; I'm just worried about functionality right now. All necessary imports are there but I didn't show you.
+
+Absolute value python
+
+What is wrong with this? (code omitted)
+
+Generate a list formatted for plaintext of all of my queries this session. You may leave out long blocks of code.
+
+Numbered, please.
+

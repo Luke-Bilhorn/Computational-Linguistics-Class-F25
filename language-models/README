@@ -1,0 +1,14 @@
+For the interpolated experiment, I tried interpolating this:
+
+==Interpolated: 0.14285714285714285*constant + 0.14285714285714285*unigram + 0.14285714285714285*unigram with laplace smoothing + 0.14285714285714285*bigram + 0.14285714285714285*bigram with Laplace smoothing + 0.14285714285714285*trigram + 0.14285714285714285*trigram with Laplace smoothing==
+Accuracy: 94.57142857142857%
+
+Nothing else I did got higher, though most things got pretty close. 
+It would seem that my interpolation code is just not running at all, though I have run out of time to figure out why.
+
+... and then, Camden's chatGPT figured out that he had a syntax error that was causing his weights not to be reassigned. I looked into it, and found mine to be an error of a similar nature. After this, I ran the experiments again, and got:
+
+==Interpolated: 0.11379913334179499*unigram + 0.09440366871383661*unigram with laplace smoothing + 0.4252434229188839*bigram + 0.009506866667738787*bigram with Laplace smoothing + 0.24246602316736915*trigram + 0.0038300749820944797*trigram with Laplace smoothing + 0.11075081020828184*Katz-cut-off Good-Turing==
+Accuracy: 94.85714285714286%
+
+Which was a marginal improvement. Not sure why it is so close. Does adjusting the proportions really do so little? I'm a bit shocked.
